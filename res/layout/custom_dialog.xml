@@ -1,0 +1,33 @@
+<!-- This file is /res/layout/video_recorder.xml based on listing 9-6 in Pro Android 2 -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="270dp"
+        android:layout_weight="0.81"
+        android:gravity="center" >
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="22dp"
+            android:layout_marginLeft="14dp"
+            android:text="Recording voice...." />
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/textView1"
+            android:layout_below="@+id/textView1"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="60dp"
+            android:text="Stop" />
+
+    </RelativeLayout>
+
+</LinearLayout>
